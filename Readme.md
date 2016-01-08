@@ -19,9 +19,16 @@ One can be seen [here](http://uniqueclocks.co.uk/media/berlin~clock.jpg~1.gif)
 We have created a number of acceptance tests for the Berlin Clock and your challenge is to get them passing.
 
 ## Some hints
-If you are new to Gradle, it may be worth spending 10 minutes reading a high level summary.  We are using the Gradle
-Wrapper so `gradlew` from the command line should download everything you need.  Most modern IDEs support Gradle projects.
+ensure that your machine has visual studio (we used 2013), and the following 2 extensions: 1) Nuget 2) 'specflow for visual studio 2013' (or appropriate). These can be installed under menu tools, Extensions and updates.	
 
-The use of JBehave in this instance is to provide you with our definition of done for the task.
+The exercise contains an un-implemented Specflow BDD test (see http://www.specflow.org/getting-started/). The use of BDD in this instance is to provide you with our definition of done for the task.
 
 Please ensure that you are familiar with our values in the instructions project.  They are important to us.
+
+* simple, elegant code that reads like a narrative
+* thinking about the code more than the writing of the code (we spend a lot of time thinking/debating about what we are writing)
+* transparency and feedback to support continuous learning
+* excellent testing that acts as documentation for the code
+* challenging boundaries where necessary
+
+
